@@ -1,0 +1,6 @@
+---
+params:
+  cruise_name: NULL
+title: "`r paste(cruise_name, cruise_date, sep = ':')`"
+subtitle: "Cruise plan"
+---
