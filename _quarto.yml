@@ -4,6 +4,10 @@ project:
 website: 
   title: "Tidewater 2023 example"
   site-url: "https://tidewater2023.obrien.page"
+  navbar: 
+    left:
+      - text: Abstract
+        href: abstract/index.qmd
  
 execute:
   freeze: auto

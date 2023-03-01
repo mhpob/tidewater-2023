@@ -1,0 +1,23 @@
+---
+title: Cruise planning with reproducible analysis workflows
+authors:
+  - name: Michael HP O'Brien
+    affiliations:
+      - id: UMCES
+        name: University of Maryland Center for Environmental Science
+  - name: David H Secor
+    affiliations:
+      - ref: UMCES
+---
+
+"Reproducible research"; "Literate programming"; "analysis workflows": all catch phrases among data analysts -- but there's no reason why they should be confined to the analysis stage of a research project. Using a worked example in R, we outline a suite of reproducible workflows and show their applicability to field researchers.
+
+US Wind is embarking on a multi-phase buildout
+
+targets
+
+qmd template
+
+interactivity
+
+transferability to website
