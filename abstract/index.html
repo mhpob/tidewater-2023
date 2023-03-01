@@ -134,8 +134,13 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>“Reproducible research”; “Literate programming”; “analysis workflows”: all catch phrases among data analysts – but there’s no reason why they should be confined to the analysis stage of a research project. Using a worked example in R, we outline a suite of reproducible workflows and show their applicability to field researchers.</p>
-<p>US Wind is embarking on a multi-phase buildout</p>
+<p><em>Reproducible research</em>; <em>literate programming</em>; <em>analysis workflows</em>: all catch phrases among data analysts – but there’s no reason why they should be confined to the analysis stage of a research project. Using a worked example in R, we outline a suite of reproducible workflows and show their applicability to field researchers.</p>
+<p>Starting spring 2023, UMCES is embarking on an 8-year, multi-platform Before-After-Control-Impact monitoring program around the US Wind offshore wind development areas near Ocean City, MD (see <a href="https://tailwinds.umces.edu">tailwinds.umces.edu</a> for project-specific information). To create reliable and reproducible cruise planning, we have developed an R-based workflow leveraging authoring within the <a href="https://quarto.org/">Quarto scientific publishing system</a>, communication utilizing <a href="https://pages.github.com/">GitHub Pages</a>, and analysis with the <a href="https://docs.ropensci.org/targets/"><em>targets</em> package</a>.</p>
+<p>Quarto allows intuitive access to JavaScript libraries and website production within R, the <em>lingua franca</em> in fisheries analysis. This has lowered barriers to adoption by analysts and allowed for interactive data exploration by the multiple project PIs. That the information is easily hosted on a free website provided by GitHub Pages has sped communication with project funders and contracted fishers.</p>
+<p>The <em>targets</em> package visualizes interrelated R code, allowing users to intuitively find where necessary changes to code must be made and only running what is necessary when those changes are made.</p>
+<p>Structuring the workflow with <em>targets</em>, a program that maps R code dependencies and only runs what is needed, has increased clarity and efficiency of code by providing a visual touchstone of interrelated datasets.</p>
+<p>Developing cruise plans in a literate programming framework has sped adoption by naive participants, future-proofed against loss of institutional knowledge, and increased awareness and participation by project funders.</p>
+<p>All example materials are hosted in <a href="https://github.com/mhpob/tidewater-2023">GitHub repository</a> and <a href="https://tidewater2023.obrien.page">resultant website</a>.</p>
 <p>targets</p>
 <p>qmd template</p>
 <p>interactivity</p>
