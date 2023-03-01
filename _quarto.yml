@@ -1,0 +1,9 @@
+project:
+  type: website
+
+website: 
+  title: "Tidewater 2023 example"
+  site-url: "https://tidewater2023.obrien.page"
+ 
+execute:
+  freeze: auto

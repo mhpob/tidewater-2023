@@ -1,6 +1,7 @@
 ---
 params:
-  cruise_name: NULL
-title: "`r paste(cruise_name, cruise_date, sep = ':')`"
+  cruise_name: "ABC"
+  cruise_date: "123"
+title: "`r paste(params$cruise_name, params$cruise_date, sep = ':')`"
 subtitle: "Cruise plan"
 ---

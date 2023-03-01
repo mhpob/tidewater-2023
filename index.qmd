@@ -8,7 +8,6 @@ authors:
   - name: David H Secor
     affiliations:
       - ref: UMCES
-format: pdf
 ---
 
 "Reproducible research"; "Literate programming"; "analysis workflows": all catch phrases among data analysts -- but there's no reason why they should be confined to the analysis stage of a research project. Using a worked example in R, we outline a suite of reproducible workflows and show their applicability to field researchers.

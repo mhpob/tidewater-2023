@@ -1,0 +1,14 @@
+{
+  "hash": "980b9ce0e3ee675f42862df383b43874",
+  "result": {
+    "markdown": "---\nparams:\n  cruise_name: \"ABC\"\n  cruise_date: \"123\"\ntitle: \"ABC:123\"\nsubtitle: \"Cruise plan\"\n---",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
