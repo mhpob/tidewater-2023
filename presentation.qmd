@@ -1,0 +1,23 @@
+---
+format:
+  revealjs:
+    self-contained: true
+---
+
+# Interactive cruise planning with Quarto
+## TailWinds
+::::{.columns}
+:::{.column}
+- <https://tailwinds.umces.edu>
+:::
+:::{.column}
+![](tailwinds_site.png)
+:::
+::::
+
+## Cruise planning
+
+-  Rote logistics (vessel speed, number of sites per day)
+-  Repetitive
+-
+

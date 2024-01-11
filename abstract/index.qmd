@@ -10,6 +10,12 @@ authors:
       - ref: UMCES
 ---
 
+Interactive cruise planning with Quarto
+Starting spring 2023, UMCES is embarking on a 7-year, multi-platform Before-After-Control-Impact monitoring program within the US Wind offshore wind development areas near Ocean City, MD (see https://tailwinds.umces.edu for project-specific information). In trials during the "shakedown" year of 2022, plans often needed to "change on the fly" to match project goals with the realities on the ground. We developed an iterative, interactive cruise planning process leveraging the Quarto scientific publishing system in response. Quarto allows intuitive access to JavaScript libraries and website production within R, the lingua franca of fisheries analysis. The use of one common language (R) lowered barriers to adoption of the framework by analysts, while the interactivity allowed by underlying JavaScript libraries provided a means for the multiple project PIs to interact with the data. Reports were readily converted to a website, allowing easy access and iterative participation with project funders and contracted fishers. Our workflow and lessons learned will be presented.
+
+
+
+
 *Reproducible research*; *literate programming*; *analysis workflows*: all catch phrases among data analysts -- but there's no reason why they should be confined to the analysis stage of a research project. Using a worked example in R, we outline a suite of reproducible workflows and show their applicability to field researchers.
 
 Starting spring 2023, UMCES is embarking on an 8-year, multi-platform Before-After-Control-Impact monitoring program around the US Wind offshore wind development areas near Ocean City, MD (see [tailwinds.umces.edu](https://tailwinds.umces.edu) for project-specific information). To create reliable and reproducible cruise planning, we have developed an R-based workflow leveraging authoring within the [Quarto scientific publishing system](https://quarto.org/), communication utilizing [GitHub Pages](https://pages.github.com/), and analysis with the [*targets* package](https://docs.ropensci.org/targets/).
@@ -32,3 +38,10 @@ qmd template
 interactivity
 
 transferability to website
+
+
+
+Starting spring 2023, UMCES is embarking on a 7-year, multi-platform Before-After-Control-Impact monitoring program within the US Wind offshore wind development areas near Ocean City, MD (see [tailwinds.umces.edu](https://tailwinds.umces.edu) for project-specific information). In trials during a "shakedown" year in 2022, plans often needed to "change on the fly" to match project goals to the realities on the ground. We developed an iterative, interactive cruise planning process leveraging the [Quarto scientific publishing system](https://quarto.org/) in response. Quarto allows intuitive access to JavaScript libraries and website production within R, the *lingua franca* of fisheries analysis. The use of one common language (R) lowered barriers to adoption of the framework by analysts, while the interactivity allowed by underlying JavaScript libraries provided a means for the multiple project PIs to interact with the data. Reports were readily converted to a website, allowing easy access and iterative participation with project funders and contracted fishers. 
+
+before, during, and after research cruises.
+
